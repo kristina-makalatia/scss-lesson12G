@@ -1,0 +1,25 @@
+.section-wraper {
+    .box {
+        display:flex;
+        .test1 {
+            color: $color-02;
+            font-size: $font-01;
+            margin-right: $font-02;
+            font-family: $font01;
+            &:hover {
+                color: $color-03;
+            }
+        }
+        .test2 {
+            color: $color-01;
+            width: $size-01;
+        }
+    }
+}
+
+.box-wraper {
+    background-color: red;
+    .image-box {
+        width: 500px;
+    }
+}
